@@ -21,11 +21,21 @@ spring:
   database-platform: org.hibernate.dialect.PostgreSQLDialect
   properties:
    '[hibernate.format_sql]': true
+   
+ goCardless :
+  api :
+   key : 'your goCardless api key'
+   secret : 'your goCardless api secret'
+   
+ stripe :
+  api :
+   key : 'your stripe api key'
+   secret : 'your stripe api secret'
 
 info:
  application: 
   name: 'category service' 
-  description: 'This is a category microservice for saloon booking system'
+  description: 'This is a Payment microservice for saloon booking system'
   version: '@project.version@' 
    
 

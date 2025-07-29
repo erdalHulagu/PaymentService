@@ -1,5 +1,42 @@
-{"properties": [{
-  "name": "info.application.name",
-  "type": "java.lang.String",
-  "description": "A description for 'info.application.name'"
-}]}
+{"properties": [
+  {
+    "name": "info.application.name",
+    "type": "java.lang.String",
+    "description": "A description for 'info.application.name'"
+  },
+  {
+    "name": "spring.goCardless.api.api",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.goCardless.api.api'"
+  },
+  {
+    "name": "spring.goCardless.api.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.goCardless.api.secret'"
+  },
+  {
+    "name": "info.application.description",
+    "type": "java.lang.String",
+    "description": "A description for 'info.application.description'"
+  },
+  {
+    "name": "info.application.version",
+    "type": "java.lang.String",
+    "description": "A description for 'info.application.version'"
+  },
+  {
+    "name": "spring.goCardless.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.goCardless.api.key'"
+  },
+  {
+    "name": "spring.stripe.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.stripe.api.key'"
+  },
+  {
+    "name": "spring.stripe.api.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.stripe.api.secret'"
+  }
+]}
