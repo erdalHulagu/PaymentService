@@ -38,5 +38,45 @@
     "name": "spring.stripe.api.secret",
     "type": "java.lang.String",
     "description": "A description for 'spring.stripe.api.secret'"
+  },
+  {
+    "name": "spring.gocardless.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.gocardless.api-key'"
+  },
+  {
+    "name": "stripe.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.api-key'"
+  },
+  {
+    "name": "spring.gocardless.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.gocardless.secret'"
+  },
+  {
+    "name": "stripe.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.secret'"
+  },
+  {
+    "name": "spring.gocardless.api.api-key",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.gocardless.api.api-key'"
+  },
+  {
+    "name": "spring.gocardless.api.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.gocardless.api.secret'"
+  },
+  {
+    "name": "stripe.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.api.key'"
+  },
+  {
+    "name": "stripe.api.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'stripe.api.secret'"
   }
 ]}

@@ -22,15 +22,15 @@ spring:
   properties:
    '[hibernate.format_sql]': true
    
- goCardless :
-  api :
-   key : 'your goCardless api key'
-   secret : 'your goCardless api secret'
-   
- stripe :
-  api :
-   key : 'your stripe api key'
-   secret : 'your stripe api secret'
+ gocardless:
+  api:
+    api-key: YOUR_GOCARDLESS_API_KEY
+    secret: YOUR_GOCARDLESS_API_SECRET
+
+stripe:
+  api:
+    key: YOUR_STRIPE_API_KEY
+    secret: YOUR_STRIPE_API_SECRET
 
 info:
  application: 
