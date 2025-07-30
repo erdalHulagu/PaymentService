@@ -6,5 +6,5 @@ public enum PaymentOrderStatus {
  
 	SUCCES,
 	
-	CANSELLED
+	CANCELLED
 }

@@ -1,14 +1,26 @@
 package com.erdal.responseMessages;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class PaymentLinkResponse {
-	
-	
-	
-	    private String paymentLinkUrl;
-	    private String paymentLinkId;
-	
+
+	public PaymentLinkResponse() {
+
+	}
+
+	public PaymentLinkResponse(String url) {
+		this.paymentLinkId = url;
+
+	}
+	public PaymentLinkResponse(String url,String id) {
+		this.paymentLinkId=id;
+		this.paymentLinkUrl=url;
+	}
+
+	private String paymentLinkUrl;
+	private String paymentLinkId;
 
 }

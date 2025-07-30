@@ -6,19 +6,20 @@ import com.erdal.model.PaymentMethod;
 import com.erdal.model.PaymentOrder;
 import com.erdal.responseMessages.PaymentLinkResponse;
 import com.gocardless.resources.RedirectFlow;
+import com.stripe.exception.StripeException;
 
 public interface PaymentService {
 	
-	PaymentLinkResponse createOrder(UserDTO userDTO,BookingDTO bookingDTO,PaymentMethod paymentMethod);
+	PaymentLinkResponse createOrder(UserDTO userDTO,BookingDTO bookingDTO,PaymentMethod paymentMethod)throws StripeException;
 	
-	PaymentOrder getpaymentOrderById(Long id);
+	PaymentOrder getpaymentOrderById(Long paymentId);
 	
-	PaymentOrder getpaymentOrderByPaymentId(String patmentId);
+	PaymentOrder getpaymentOrderByPaymentLinkId(String patmentId);
 	
-	RedirectFlow createGoCardlessPaymentLink(UserDTO userDTO,Long amount,Long paymentOrderId);
+	PaymentLinkResponse createGoCardlessPaymentLink(UserDTO userDTO, Long amount, PaymentOrder paymentOrder);
 	
-	String createStripePaymentLink(UserDTO userDTO,Long amount,Long paymentOrderId);
+	PaymentLinkResponse createStripePaymentIntent(UserDTO userDTO, Long amount, PaymentOrder paymentOrder)throws StripeException;
 	
-	
+	Boolean proccedPayment(PaymentOrder paymentOrder,String paymentId, String paymentLinkId);
 
 }
