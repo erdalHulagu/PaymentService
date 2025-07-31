@@ -78,5 +78,20 @@
     "name": "stripe.api.secret",
     "type": "java.lang.String",
     "description": "A description for 'stripe.api.secret'"
+  },
+  {
+    "name": "eureka.client.service-url.default-zone",
+    "type": "java.lang.String",
+    "description": "A description for 'eureka.client.service-url.default-zone'"
+  },
+  {
+    "name": "gocardless.api.key",
+    "type": "java.lang.String",
+    "description": "A description for 'gocardless.api.key'"
+  },
+  {
+    "name": "gocardless.api.secret",
+    "type": "java.lang.String",
+    "description": "A description for 'gocardless.api.secret'"
   }
 ]}
